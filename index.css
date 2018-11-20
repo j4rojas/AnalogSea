@@ -1,0 +1,78 @@
+
+html {
+  font-family:'Roboto', helvetica, sans-serif;
+  font-size:18px;
+}
+
+img {
+  height:35px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nav-logo {
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+body {
+  background:rgb(86, 149, 243);
+  padding: 60px 0 0;
+}
+
+form {
+  width:400px;
+  background:white;
+  padding:40px;
+  margin: 0 auto;
+  text-align:center;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:15px;  
+}
+
+.sign-up fieldset {
+  width:320px;
+  border:2px;
+}
+
+input[type=password], [type=email] {
+    width: 320px;
+    padding: 15px;
+    margin:25px;
+    box-sizing: border-box;
+    border-radius:3px;
+}
+
+.sign-up input::placeholder { 
+  color: rgba(128, 128, 128, 0.925);
+  font-size:18px;
+}
+
+.signupbtn {
+  width:320px;
+  height:55px;
+  padding:15px;
+  border:2px;
+  background:rgb(5, 187, 5);
+  font-size:20px;
+  border-radius:3px;
+  cursor:pointer; 
+}
+
+.question, a, .signupbtn {
+  color:white;
+  text-align:center;
+  font-weight: bold;
+}
+
+.signupbtn:hover {
+  background-color:green;
+}
+
+label {
+  float: left;
+  margin: 10px 0 0 25px;
+}
